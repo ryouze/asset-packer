@@ -1,2 +1,2 @@
-# Ignore all python files from language statistics
+# Ignore all Python files
 *.py linguist-vendored
