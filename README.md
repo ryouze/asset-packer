@@ -150,6 +150,7 @@ int main()
 {
     sf::Texture texture;
     texture.loadFromMemory(image::data, image::size);
+    return 0;
 }
 ```
 
