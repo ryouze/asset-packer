@@ -17,7 +17,7 @@ def write_python_version(
 
 namespace fire_app {{
 
-constexpr unsigned char data[] = {{{', '.join(f'0x{byte:02X}' for byte in input_data)}}};
+constexpr unsigned char data[] = {{{", ".join(f"0x{byte:02X}" for byte in input_data)}}};
 
 constexpr std::size_t size = sizeof(data);
 
