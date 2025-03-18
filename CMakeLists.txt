@@ -78,10 +78,9 @@ include_directories(${CMAKE_BINARY_DIR}/generated)
 
 # Add the main library target
 add_library(${PROJECT_NAME}-lib STATIC
-  # find . -name "*.c"
+  # find src -name "*.c" ! -name "main.c" | sort
   src/core/args.c
   src/core/prepare.c
-  src/main.c
 )
 
 # Include headers relatively to the src directory
